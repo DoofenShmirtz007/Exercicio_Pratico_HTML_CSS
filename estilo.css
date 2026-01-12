@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #003366; /* Dark Blue */
+    text-align: center;
+}
+
+h2.subtitle {
+    color: #cc5200; /* Dark Orange/Brown */
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    color: #333;
+}
+
+h2.elements-title {
+    color: #003366;
+}
+
+h2.image-title {
+    color: #66cc00; /* Green */
+    text-align: center;
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+h2.table-title {
+    color: red;
+}
+
+p.brown-underline {
+    border-bottom: 2px solid brown;
+    display: inline-block; /* Or block, depending on desired width */
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+hr.separator {
+    border: 0;
+    height: 3px;
+    background-color: #cc3300; /* Reddish */
+    margin: 20px 0;
+}
+
+ol li {
+    color: red; /* Numbers color? No, usually list items are black but numbers might be. Let's keep it simple or check PDF. PDF shows red text for list items? "1. Estrutura..." is red? Yes, the whole list seems red in text in the screenshot? No, let's look at OCR. "Elementos..." is blue. "1. Estrutura..." is red text. */
+    color: red;
+}
+
+ol li span {
+    color: black; /* If I want to separate number and text? No, PDF shows red text. "1. Estrutura..." is red in the screenshot. */
+}
+
+/* Adjusting if the text itself is red */
+ol {
+    color: red;
+}
+
+img.transparent-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 600px; /* Reasonable width */
+    opacity: 0.85; /* 15% transparency */
+    border-radius: 8px; /* Optional for aesthetics */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+/* Boas Práticas list */
+ul {
+    list-style-type: disc;
+}
